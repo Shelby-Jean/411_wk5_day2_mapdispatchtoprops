@@ -9,10 +9,10 @@ const mapStateToProps = (state) => {
     }
 }
 
-// const mapDispatchToProps = (dispatch) => {
-//     return {
-//         removeCar: (index) => dispatch(removeCar(index))
-//     }
-// }
+const mapDispatchToProps = (dispatch) => {
+    return {
+        removeCar: (index) => dispatch(removeCar(index))
+    }
+}
 
-export default connect(mapStateToProps)(Dashboard)
+export default connect(mapStateToProps, mapDispatchToProps)(Dashboard)

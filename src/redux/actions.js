@@ -5,9 +5,9 @@ export const addCar = (car) => {
   }
 }
 
-// export const removeCar = (index) => {
-//   return {
-//     type: "REMOVE_CAR",
-//     value: index
-//   }
-// }
+export const removeCar = (index) => {
+  return {
+    type: "REMOVE_CAR",
+    value: index
+  }
+}
